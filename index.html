@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rahul Badwaik — Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio of Rahul Badwaik — Software Development Engineer & ML Researcher."
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome (icons) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ===================== NAVBAR ===================== -->
+    <nav id="navbar">
+      <div class="container nav-inner">
+        <a href="#hero" class="nav-logo">RB<span>.</span></a>
+
+        <ul class="nav-links">
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#resume">Resume</a></li>
+        </ul>
+
+        <div class="nav-cta">
+          <a
+            href="#about"
+            class="btn btn-primary"
+            style="padding: 8px 20px; font-size: 0.85rem"
+            >Contact Me</a
+          >
+          <div class="hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ===================== HERO ===================== -->
+    <section id="hero" class="section">
+      <div class="hero-bg"></div>
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left: Text -->
+          <div class="hero-content">
+            <div class="hero-tag">Available for opportunities</div>
+            <h1 class="hero-name">
+              Hi, I'm <span class="highlight">Rahul Badwaik</span>
+            </h1>
+            <p class="hero-role">
+              <span id="typed-role"></span
+              ><span style="color: var(--primary); animation: pulse 1s infinite"
+                >|</span
+              >
+            </p>
+            <p class="hero-desc">
+              Software engineer with 4+ years of experience in investment
+              banking systems, full-stack development, and machine learning
+              research. IIT Roorkee Alumini and currently pursuing an MS in
+              Computer Science at UMBC.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fas fa-rocket"></i> View Projects
+              </a>
+              <a href="#resume" class="btn btn-outline">
+                <i class="fas fa-file-alt"></i> Resume
+              </a>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-row">
+              <a
+                href="https://github.com/rahulbadwaik219"
+                target="_blank"
+                class="social-link"
+                title="GitHub"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://linkedin.com/in/rahul-badwaik1999"
+                target="_blank"
+                class="social-link"
+                title="LinkedIn"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="mailto:rbadwaik219@umbc.edu"
+                class="social-link"
+                title="Email"
+              >
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a href="tel:6674316441" class="social-link" title="Phone">
+                <i class="fas fa-phone"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Avatar -->
+          <div class="hero-visual">
+            <div class="avatar-wrapper">
+              <div class="avatar-ring"></div>
+              <div class="avatar-circle">
+                <img src="picture copy.jpg" alt="Rahul B." class="avatar-img" />
+              </div>
+              <div class="floating-badge top-right">
+                <i class="fas fa-code"></i> SDE II
+              </div>
+              <div class="floating-badge bottom-left">
+                <i class="fas fa-brain"></i> ML Research
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== STATS BAR ===================== -->
+    <div class="stats-bar">
+      <div class="container">
+        <div class="stats-grid" id="stats-container">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== ABOUT / CONTACT ===================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">
+          A little bit about who I am and how to reach me
+        </p>
+
+        <div class="about-grid">
+          <!-- About Text -->
+          <div class="about-text fade-up">
+            <p>
+              I am a Software Development Engineer with over 4 years of
+              professional experience, having worked at
+              <strong>Societe Generale</strong> on mission-critical investment
+              banking systems. My work spanned full-stack development, RESTful
+              API design, test-driven development, and production support for
+              high-volume trading workflows.
+            </p>
+            <p>
+              Currently, I am pursuing a
+              <strong>Master of Science in Computer Science</strong> at the
+              University of Maryland Baltimore County, where I focus on machine
+              learning, computer vision, and algorithm design. My research
+              interests lie at the intersection of deep learning and medical
+              imaging.
+            </p>
+            <p>
+              I am passionate about building scalable systems, automating
+              complex processes, and applying AI to solve real-world problems. I
+              thrive in collaborative environments and enjoy mentoring junior
+              engineers.
+            </p>
+            <div
+              style="
+                margin-top: 28px;
+                display: flex;
+                gap: 14px;
+                flex-wrap: wrap;
+              "
+            >
+              <a
+                href="https://github.com/rahulbadwaik219"
+                target="_blank"
+                class="btn btn-outline"
+              >
+                <i class="fab fa-github"></i> GitHub
+              </a>
+              <a
+                href="https://linkedin.com/in/rahul-badwaik1999"
+                target="_blank"
+                class="btn btn-primary"
+              >
+                <i class="fab fa-linkedin-in"></i> LinkedIn
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Card -->
+          <div class="contact-card fade-up">
+            <h3>Get In Touch</h3>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-info">
+                <div class="label">Email</div>
+                <a href="mailto:rbadwaik219@umbc.edu" class="value"
+                  >rbadwaik219@umbc.edu</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div class="contact-info">
+                <div class="label">Phone</div>
+                <a href="tel:6674316441" class="value">667-431-6441</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-info">
+                <div class="label">Location</div>
+                <div class="value">Baltimore, MD, USA</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div class="contact-info">
+                <div class="label">LinkedIn</div>
+                <a
+                  href="https://linkedin.com/in/rahul-badwaik1999"
+                  target="_blank"
+                  class="value"
+                  >linkedin.com/in/rahul-badwaik1999</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fab fa-github"></i></div>
+              <div class="contact-info">
+                <div class="label">GitHub</div>
+                <a
+                  href="https://github.com/rahulbadwaik219"
+                  target="_blank"
+                  class="value"
+                  >github.com/rahulbadwaik219</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section id="skills" class="section" style="background: var(--bg-card)">
+      <div class="container">
+        <h2 class="section-title">Technical <span>Skills</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">Technologies and tools I work with</p>
+
+        <div class="skills-categories" id="skills-container">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title">Professional <span>Experience</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">My career journey and key contributions</p>
+
+        <div class="timeline" id="experience-container">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section id="projects" class="section" style="background: var(--bg-card)">
+      <div class="container">
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 12px;
+          "
+        >
+          <h2 class="section-title" style="margin-bottom: 0; text-align: left">
+            Featured <span>Projects</span>
+          </h2>
+          <button class="btn btn-primary" id="openModalBtn">
+            <i class="fas fa-plus"></i> Add Project
+          </button>
+        </div>
+        <div class="divider" style="margin: 12px 0 0"></div>
+        <p class="section-subtitle">
+          Research and engineering projects I've built
+        </p>
+
+        <div class="projects-grid" id="projects-container">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title">My <span>Education</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">Academic background and coursework</p>
+
+        <div class="edu-grid" id="education-container">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== RESUME ===================== -->
+    <section id="resume" class="section" style="background: var(--bg-card)">
+      <div class="container resume-section">
+        <h2 class="section-title">My <span>Resume</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">Download or view my full resume</p>
+
+        <div class="resume-card fade-up">
+          <div class="resume-icon">
+            <i class="fas fa-file-pdf" style="color: var(--accent)"></i>
+          </div>
+          <h3>Rahul Badwaik — Resume</h3>
+          <p>
+            Software Development Engineer &amp; ML Researcher<br />Updated 2025
+          </p>
+          <div
+            style="
+              display: flex;
+              gap: 14px;
+              flex-wrap: wrap;
+              justify-content: center;
+            "
+          >
+            <a
+              href="assets/Resume_Rahul_SDE-2.pdf"
+              download
+              class="btn btn-primary"
+            >
+              <i class="fas fa-download"></i> Download PDF
+            </a>
+            <a
+              href="assets/Resume_Rahul_SDE-2.pdf"
+              target="_blank"
+              class="btn btn-outline"
+            >
+              <i class="fas fa-eye"></i> View Online
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer>
+      <div class="container footer-inner">
+        <div class="footer-logo">RB<span>.</span></div>
+        <div class="footer-links">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#resume">Resume</a>
+        </div>
+        <div class="social-row" style="justify-content: center">
+          <a
+            href="https://github.com/rahulbadwaik219"
+            target="_blank"
+            class="social-link"
+            title="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://linkedin.com/in/rahul-badwaik1999"
+            target="_blank"
+            class="social-link"
+            title="LinkedIn"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            href="mailto:rbadwaik219@umbc.edu"
+            class="social-link"
+            title="Email"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+        <p class="footer-copy">© 2025 Rahul Badwaik</p>
+      </div>
+    </footer>
+
+    <!-- ===================== SCROLL TO TOP ===================== -->
+    <button id="scrollTop" aria-label="Scroll to top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- ===================== ADD PROJECT MODAL ===================== -->
+    <div class="modal-overlay" id="addProjectModal">
+      <div class="modal">
+        <div class="modal-header">
+          <h3>
+            <i
+              class="fas fa-plus-circle"
+              style="color: var(--primary); margin-right: 8px"
+            ></i
+            >Add New Project
+          </h3>
+          <button
+            class="modal-close"
+            id="modalCloseBtn"
+            aria-label="Close modal"
+          >
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <form id="addProjectForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="proj-title">Project Title *</label>
+              <input
+                type="text"
+                id="proj-title"
+                name="title"
+                class="form-control"
+                placeholder="e.g. Image Classifier"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="proj-period">Period *</label>
+              <input
+                type="text"
+                id="proj-period"
+                name="period"
+                class="form-control"
+                placeholder="e.g. Jan 2024 – Mar 2024"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="proj-icon">Emoji Icon</label>
+              <input
+                type="text"
+                id="proj-icon"
+                name="icon"
+                class="form-control"
+                placeholder="e.g. 🚀 (leave blank for 💡)"
+                maxlength="4"
+              />
+            </div>
+            <div class="form-group">
+              <label for="proj-github">GitHub URL</label>
+              <input
+                type="url"
+                id="proj-github"
+                name="github"
+                class="form-control"
+                placeholder="https://github.com/..."
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="proj-desc">Description *</label>
+            <textarea
+              id="proj-desc"
+              name="description"
+              class="form-control"
+              placeholder="Describe what the project does, your role, and the impact..."
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="proj-tags">Skills / Technologies *</label>
+            <input
+              type="text"
+              id="proj-tags"
+              name="tags"
+              class="form-control"
+              placeholder="Python, TensorFlow, Flask (comma-separated)"
+              required
+            />
+          </div>
+
+          <div
+            style="
+              display: flex;
+              gap: 12px;
+              justify-content: flex-end;
+              margin-top: 8px;
+            "
+          >
+            <button
+              type="button"
+              class="btn btn-ghost"
+              id="modalCloseBtn2"
+              onclick="closeModal()"
+            >
+              Cancel
+            </button>
+            <button type="submit" class="btn btn-primary">
+              <i class="fas fa-plus"></i> Add Project
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Script -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
